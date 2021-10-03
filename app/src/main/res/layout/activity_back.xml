@@ -25,20 +25,10 @@
         layout="@layout/content_back"
         android:layout_height="520dp" />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
-
     <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="match_parent"
-        android:layout_height="660dp"
-        app:layout_anchor="@+id/include"
-        app:layout_anchorGravity="center"
-        app:srcCompat="@drawable/ic_launcher_foreground" />
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="438dp"
+        app:srcCompat="@drawable/zhivotnye_kot_prikol_ochki_1637" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
